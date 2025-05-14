@@ -108,7 +108,7 @@ newestIssue.forEach((item) => {
   newestIssueArea.innerHTML += `
   <div class="flex flex-col xl:flex-row">
     <img src="./img/desktop/blog/About Section.png" alt="最新文章附圖" class="max-w-full w-full object-cover xl:w-[50%]" />
-    <div class="flex flex-col justify-center py-[3rem] px-[0.75rem]">
+    <div class="flex flex-col justify-center py-[3rem] px-[1.5rem]">
       <time class="block mb-[0.25rem]">${item.publishDate}</time>
     <span class="flex gap-[0.5rem]" data-tags></span>
     <h3 class="font-[700] text-[1.75rem] mb-[0.5rem]">${item.title}</h3>
