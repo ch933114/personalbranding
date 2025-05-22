@@ -773,6 +773,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-\[1\.2rem\]{
+  gap: 1.2rem;
+}
+
 .gap-\[1\.5rem\]{
   gap: 1.5rem;
 }
@@ -1038,6 +1042,10 @@ video {
   .sm\:inline{
     display: inline;
   }
+
+  .sm\:text-\[1\.75rem\]{
+    font-size: 1.75rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -1172,9 +1180,9 @@ video {
     padding: 5rem;
   }
 
-  .xl\:px-\[0\]{
-    padding-left: 0;
-    padding-right: 0;
+  .xl\:px-\[0\.5rem\]{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .xl\:px-\[2\.5rem\]{
